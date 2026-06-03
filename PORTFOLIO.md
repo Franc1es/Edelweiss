@@ -129,8 +129,3 @@ Supporto completo italiano / inglese tramite un dizionario tipizzato. Il seletto
 | Favicon | `config.ts` → `faviconImage` |
 
 ---
-
-## Autore
-
-Sviluppato da **Francesco** con [Claude Code](https://claude.ai/code) — Anthropic.  
-Stack: React + TypeScript + Vite + Tailwind CSS.
