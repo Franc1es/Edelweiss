@@ -35,6 +35,7 @@ export interface Translation {
   contact: {
     title: string;
     phone: string;
+    address: string;
     social: string;
   };
   footer: {

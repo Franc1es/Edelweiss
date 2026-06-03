@@ -54,6 +54,7 @@ export const translations: Record<Language, Translation> = {
     contact: {
       title: "Contattaci",
       phone: "Telefono",
+      address: "Dove siamo",
       social: "Seguici sui social",
     },
     footer: {
@@ -121,6 +122,7 @@ export const translations: Record<Language, Translation> = {
     contact: {
       title: "Contact Us",
       phone: "Phone",
+      address: "Where we are",
       social: "Follow us on social media",
     },
     footer: {

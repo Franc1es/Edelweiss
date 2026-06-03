@@ -1,4 +1,4 @@
-import { Phone, Instagram, Facebook } from "lucide-react";
+import { Phone, Instagram, Facebook, MapPin } from "lucide-react";
 import type { Translation } from "../../types";
 
 interface ContactProps {
@@ -14,6 +14,29 @@ export default function Contact({ t }: ContactProps) {
         </h2>
 
         <div className="space-y-3">
+          {/* Maps */}
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Edelweiss+Viale+Rinascimento+123+63074+San+Benedetto+del+Tronto+AP"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 p-5 bg-slate-50 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] transition-all"
+          >
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-500 to-green-400 flex items-center justify-center shadow-md shadow-green-200 shrink-0">
+              <MapPin className="w-7 h-7 text-white" />
+            </div>
+            <div>
+              <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-0.5">
+                {t.contact.address}
+              </p>
+              <p className="text-base font-bold text-foreground leading-tight">
+                Viale Rinascimento, 123
+              </p>
+              <p className="text-sm text-muted-foreground">
+                63074 San Benedetto del Tronto AP
+              </p>
+            </div>
+          </a>
+
           {/* Phone */}
           <a
             href="tel:0735657768"
